@@ -21,7 +21,7 @@ export function handleReviewCreated(event: ReviewCreated): void {
   review.siteURL = event.params.siteURL;
   review.siteType = event.params.siteType;
   review.siteTag = event.params.siteTag;
-  review.siteSafety = event.params.category;
+  review.siteSafety = event.params.siteSafety;
   review.metaDataUri = event.params.metadataURI;
   review.reviewBy = event.params.receiver.toHexString();
   review.deleted = false;
