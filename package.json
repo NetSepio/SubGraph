@@ -5,6 +5,7 @@
     "codegen": "graph codegen",
     "build": "graph build",
     "deploy": "graph deploy --node https://api.studio.thegraph.com/deploy/ thisisommore/netsepio",
+    "remove:hosted": "graph remove --node https://main.graph.lazarus.network NetSepio",
     "create:hosted": "graph create --node https://main.graph.lazarus.network NetSepio",
     "deploy:hosted": "graph deploy --node https://main.graph.lazarus.network --ipfs https://ipfs.graph.lazarus.network -l v0.0.1 NetSepio",
     "create-local": "graph create --node http://localhost:8020/ NetSepio",
